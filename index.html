@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smartPulse API</title>
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+        }
+        table {
+            margin: auto;
+            text-align: right;
+        }
+
+        table thead tr th {
+            font-size: large;
+            color: #fff;
+            background: #1c579a;
+            padding: 10px 5px;
+            text-align: center;
+        }
+
+        table td, th {
+            border: 1px solid #ddd;
+            padding: 5px 10px;
+        }
+
+        table tr:nth-child(odd) {
+            background: #b0c5dd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Conract</th>
+                    <th>Toplam İşlem Miktari (MWh)</th>
+                    <th>Toplam İşlem Tutarı (TL)</th>
+                    <th>Ağırlıklı Ortalama Fiyat (TL/Mwh)</th>
+                </tr>
+            </thead>
+            <tbody id="list"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
