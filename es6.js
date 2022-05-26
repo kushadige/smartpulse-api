@@ -1,3 +1,11 @@
+/**
+ * smartPulse API
+ * API for fetching data from the given URL
+ * 
+ * @author oguzhankuslar
+ *  
+ **/
+
 let startDate = '2022-01-24';
 let endDate = '2022-01-26';
 
