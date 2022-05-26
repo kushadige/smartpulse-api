@@ -11,7 +11,7 @@ let endDate = '2022-01-26';
 
 const http = new XMLHttpRequest;
 
-http.open('GET', `https://seffaflik.epias.com.tr/transparency/service/market/intra-day-trade-history?endDate=${this.endDate}&startDate=${this.startDate}`, true);
+http.open('GET', `https://seffaflik.epias.com.tr/transparency/service/market/intra-day-trade-history?endDate=${endDate}&startDate=${startDate}`, true);
 
 http.onload = function(){
     if(this.readyState === 200){
